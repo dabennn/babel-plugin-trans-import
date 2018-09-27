@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-trans-import",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a babel plugin that can transform library import from import declaration to default import declaration",
   "main": "lib/index.js",
   "scripts": {

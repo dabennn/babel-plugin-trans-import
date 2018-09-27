@@ -37,3 +37,8 @@ import { list, env } from 'zcos';
 import list from 'zcos/lib/list';
 import env from 'zcos/lib/env';
 ```
+
+### Development plan
+
+- ~~support to transform import declaration like `import { methods } from 'lib'`~~
+- support to transform import declaration like `import method, { method } from 'lib'`
