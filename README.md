@@ -17,10 +17,12 @@ plugins: [
 
 ### Paramters
 
-**lib** `<string>`
+**lib**: library name
+- type: `<string>`
 
-**dir** `<string>`
-default: 'lib'
+**dir**: library directory name
+- type: `<string>`
+- default: `'lib'`
 
 ### Example
 
@@ -37,7 +39,7 @@ import list from 'zcos/lib/list';
 import env from 'zcos/lib/env';
 ```
 
-### Development plan
+### Development Plan
 
 - [x] support to transform import declaration like `import { methods } from 'lib'`
-- [X] support to transform import declaration like `import method, { method } from 'lib'`
+- [x] support to transform import declaration like `import method, { method } from 'lib'`
