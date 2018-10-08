@@ -11,14 +11,13 @@ npm i babel-plugin-trans-import -D
 
 ```json
 plugins: [
-  ["trans-import", { "lib": "lib name", "dir": "directory name" }]
+  ["trans-import", { "lib": "library name", "dir": "library directory name" }]
 ]
 ```
 
 ### Paramters
 
 **lib** `<string>`
-default: 'zcos'
 
 **dir** `<string>`
 default: 'lib'
@@ -40,5 +39,5 @@ import env from 'zcos/lib/env';
 
 ### Development plan
 
-- ~~support to transform import declaration like `import { methods } from 'lib'`~~
-- support to transform import declaration like `import method, { method } from 'lib'`
+- [x] support to transform import declaration like `import { methods } from 'lib'`
+- [X] support to transform import declaration like `import method, { method } from 'lib'`

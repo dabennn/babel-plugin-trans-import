@@ -4,7 +4,7 @@
   "description": "a babel plugin that can transform library import from import declaration to default import declaration",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "babel-plugin",
@@ -15,6 +15,9 @@
   "author": "dabennn",
   "license": "MIT",
   "devDependencies": {
-    "@babel/types": "^7.0.0"
+    "@babel/core": "^7.1.2",
+    "@babel/types": "^7.0.0",
+    "babel-plugin-tester": "^5.5.1",
+    "mocha": "^5.2.0"
   }
 }
