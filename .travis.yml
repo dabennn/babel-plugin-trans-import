@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6"
+deploy:
+  email: dabennn07@gmail.com
+  provider: npm
+  skip_cleanup: true
+  api_key:
+    secure: $API_TOKEN
+  on:
+    tags: true

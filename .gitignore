@@ -2,7 +2,8 @@
 node_modules
 *.log
 .vscode
-package-lock.json
+# package-lock.json
 yarn.lock
 index.html
 test.js
+p.sh
